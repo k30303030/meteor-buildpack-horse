@@ -2,6 +2,7 @@
 #
 # If ROOT_URL is not set, default to https://appname.herokuapp.com.
 #
+npm update
 echo "-----> Adding profile script to resolve ROOT_URL from heroku app name"
 cat > "$APP_CHECKOUT_DIR"/.profile.d/root_url.sh <<EOF
   #!/bin/bash
